@@ -1,0 +1,42 @@
+{
+  "entityType" : "CUSTOMER",
+  "entity" : {
+    "additionalInfo" : {
+      "description" : "",
+      "allowWhiteLabeling" : true,
+      "homeDashboardId" : null,
+      "homeDashboardHideToolbar" : true
+    },
+    "address" : null,
+    "address2" : null,
+    "city" : null,
+    "country" : null,
+    "customerId" : {
+      "entityType" : "CUSTOMER",
+      "id" : "a7d0a560-50e0-11ef-8d66-9bbb0351be2a"
+    },
+    "email" : null,
+    "externalId" : null,
+    "id" : {
+      "entityType" : "CUSTOMER",
+      "id" : "ca12a290-50e0-11ef-8d66-9bbb0351be2a"
+    },
+    "name" : "Wat INNININININ",
+    "ownerId" : {
+      "entityType" : "CUSTOMER",
+      "id" : "a7d0a560-50e0-11ef-8d66-9bbb0351be2a"
+    },
+    "parentCustomerId" : {
+      "entityType" : "CUSTOMER",
+      "id" : "a7d0a560-50e0-11ef-8d66-9bbb0351be2a"
+    },
+    "phone" : null,
+    "state" : null,
+    "title" : "Wat INNININININ",
+    "zip" : null
+  },
+  "relations" : [ ],
+  "attributes" : {
+    "SERVER_SCOPE" : [ ]
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "entityType" : "NOTIFICATION_RULE",
+  "entity" : {
+    "additionalConfig" : {
+      "description" : "Send notification to tenant admins when any integration fails to start"
+    },
+    "enabled" : true,
+    "externalId" : null,
+    "id" : {
+      "entityType" : "NOTIFICATION_RULE",
+      "id" : "b2c25420-4e68-11ef-847b-9766e2a793fa"
+    },
+    "name" : "Integration start failure",
+    "recipientsConfig" : {
+      "targets" : [ "b2bd4b10-4e68-11ef-847b-9766e2a793fa" ],
+      "triggerType" : "INTEGRATION_LIFECYCLE_EVENT"
+    },
+    "templateId" : {
+      "entityType" : "NOTIFICATION_TEMPLATE",
+      "id" : "b2c20600-4e68-11ef-847b-9766e2a793fa"
+    },
+    "triggerConfig" : {
+      "triggerType" : "INTEGRATION_LIFECYCLE_EVENT",
+      "integrationTypes" : null,
+      "integrations" : null,
+      "notifyOn" : [ "STARTED" ],
+      "onlyOnError" : true,
+      "triggerType" : "INTEGRATION_LIFECYCLE_EVENT"
+    },
+    "triggerType" : "INTEGRATION_LIFECYCLE_EVENT"
+  },
+  "relations" : [ ],
+  "attributes" : {
+    "SERVER_SCOPE" : [ ]
+  }
+}

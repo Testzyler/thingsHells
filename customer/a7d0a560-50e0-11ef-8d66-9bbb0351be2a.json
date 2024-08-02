@@ -1,0 +1,33 @@
+{
+  "entityType" : "CUSTOMER",
+  "entity" : {
+    "additionalInfo" : {
+      "cus_usage_type" : "",
+      "org_name" : "",
+      "tax_num" : "",
+      "cus_dis_type" : ""
+    },
+    "address" : "",
+    "address2" : null,
+    "city" : null,
+    "country" : null,
+    "customerId" : null,
+    "email" : "",
+    "externalId" : null,
+    "id" : {
+      "entityType" : "CUSTOMER",
+      "id" : "a7d0a560-50e0-11ef-8d66-9bbb0351be2a"
+    },
+    "name" : "DRRRRRR",
+    "ownerId" : null,
+    "parentCustomerId" : null,
+    "phone" : "",
+    "state" : null,
+    "title" : "DRRRRRR",
+    "zip" : null
+  },
+  "relations" : [ ],
+  "attributes" : {
+    "SERVER_SCOPE" : [ ]
+  }
+}
